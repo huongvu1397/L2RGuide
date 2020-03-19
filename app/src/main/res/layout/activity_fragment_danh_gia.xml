@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/mauChinh"
+    android:orientation="vertical"
+    tools:context=".FragmentDanhGia">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="4"
+        android:orientation="vertical">
+          <LinearLayout
+              android:layout_weight="1"
+              android:id="@+id/danhgiahuman"
+              android:layout_margin="5dp"
+              android:layout_width="match_parent"
+              android:layout_height="0dp"
+              android:orientation="horizontal">
+            <ImageView
+                android:layout_gravity="center"
+                android:id="@+id/imgHuman"
+                android:src="@drawable/ichuman"
+                android:scaleType="centerCrop"
+                android:background="@drawable/custom_button_start"
+                android:layout_width="100dp"
+                android:layout_height="100dp" />
+              <TextView
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:gravity="center"
+                  android:textSize="15dp"
+                  android:textColor="#fff"
+                  android:text="Human"/>
+          </LinearLayout>
+    <LinearLayout
+        android:layout_weight="1"
+        android:id="@+id/danhgiaelf"
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal">
+            <ImageView
+                android:layout_gravity="center"
+                android:src="@drawable/icelf"
+                android:id="@+id/imgElf"
+                android:background="@drawable/custom_button_start"
+                android:layout_width="100dp"
+                android:layout_height="100dp"  />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textSize="15dp"
+            android:textColor="#fff"
+            android:text="Elf"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_weight="1"
+        android:id="@+id/danhgiadarkelf"
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal">
+            <ImageView
+                android:layout_gravity="center"
+                android:src="@drawable/icdelf"
+                android:id="@+id/imgDElf"
+                android:background="@drawable/custom_button_start"
+                android:layout_width="100dp"
+                android:layout_height="100dp"  />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textSize="15dp"
+            android:textColor="#fff"
+            android:text="Dark Elf"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_weight="1"
+        android:id="@+id/danhgiadwarf"
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal">
+            <ImageView
+                android:layout_gravity="center"
+                android:id="@+id/imgDwarf"
+                android:src="@drawable/icdwarf"
+                android:background="@drawable/custom_button_start"
+                android:layout_width="100dp"
+                android:layout_height="100dp"  />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textSize="15dp"
+            android:textColor="#fff"
+            android:text="Dwarf"/>
+    </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

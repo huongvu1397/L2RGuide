@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="*"
+    android:background="@drawable/icdwarf"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".danhgia.dwarfdanhgia"
+    tools:showIn="@layout/activity_danhgiadwarf">
+
+    <TextView
+        android:layout_margin="10dp"
+        android:text=""
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+
+    <TableRow android:layout_marginTop="5dp">
+
+
+        <TextView
+            android:background="#ffffff"
+            android:layout_gravity="center"
+            android:layout_marginLeft="5dp"
+            android:text="Nhân vật"
+            android:textSize="15dp" />
+
+        <TextView
+            android:layout_gravity="center"
+            android:text="Cày cấp"
+            android:textSize="15dp" />
+
+        <TextView
+            android:layout_gravity="center"
+            android:text="Phó bản"
+            android:textSize="15dp" />
+
+        <TextView
+            android:layout_gravity="center"
+            android:layout_marginRight="5dp"
+            android:text="PVP"
+            android:textSize="15dp" />
+
+
+    </TableRow>
+
+    <TableRow android:layout_marginTop="5dp">
+
+        <TextView
+            android:background="#ffffff"
+            android:layout_gravity="center"
+            android:layout_marginLeft="5dp"
+            android:text="Guardian"
+            android:textSize="15dp" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="18dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/star3" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="18dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/star2" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="18dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/star4" />
+
+    </TableRow>
+
+    <TableRow android:layout_marginTop="5dp">
+
+        <TextView
+            android:background="#ffffff"
+            android:layout_gravity="center"
+            android:layout_marginLeft="5dp"
+            android:text=" Slayer"
+            android:textSize="15dp" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="18dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/star4" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="18dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/star4" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="18dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/star4" />
+
+    </TableRow>
+
+    <TableRow android:layout_marginTop="5dp">
+
+        <TextView
+
+            android:background="#ffffff"
+            android:layout_gravity="center"
+            android:layout_marginLeft="5dp"
+            android:text="Scavenger"
+            android:textSize="15dp" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="18dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/star2" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="18dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/star5" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="18dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/star4" />
+
+    </TableRow>
+
+    <TableRow android:layout_marginTop="5dp">
+
+        <TextView
+            android:background="#ffffff"
+            android:layout_gravity="center"
+            android:layout_marginLeft="5dp"
+            android:text="War Ranger"
+            android:textSize="15dp" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="18dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/star5" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="18dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/star3" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="18dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/star3" />
+
+    </TableRow>
+
+    <TableRow android:layout_marginTop="5dp">
+
+        <TextView
+            android:background="#ffffff"
+            android:layout_gravity="center"
+            android:layout_marginLeft="5dp"
+            android:text="Battle Mage"
+            android:textSize="15dp" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="18dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/star5" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="18dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/star4" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="18dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/star3" />
+
+    </TableRow>
+
+    <TableRow android:layout_marginTop="5dp">
+
+        <TextView
+            android:background="#ffffff"
+            android:layout_gravity="center"
+            android:layout_marginLeft="5dp"
+            android:text="Sage"
+            android:textSize="15dp" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="18dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/star2" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="18dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/star3" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="18dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/star5" />
+
+    </TableRow>
+
+
+</TableLayout>

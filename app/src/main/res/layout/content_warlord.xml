@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".classnhanvat.Warlord"
+    tools:showIn="@layout/activity_warlord">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+            <LinearLayout
+
+                android:layout_marginTop="5dp"
+                android:id="@+id/chucvux"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:background="@drawable/custom_khungden"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+                <ImageView
+                    android:id="@+id/icClass"
+                    android:layout_gravity="center"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:background="@drawable/custom_button_start"
+                    android:src="@drawable/ic_class_warlord"
+                    />
+                <TextView
+                    android:id="@+id/class_tenclass"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="Warlord"
+                    android:textSize="30dp"
+                    android:textColor="#fff"
+                    />
+                <LinearLayout
+                    android:weightSum="4"
+                    android:layout_marginTop="5dp"
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text=""/>
+                    <TextView
+                        android:layout_weight="1"
+                        android:layout_gravity="center"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:text="Vũ khí"
+                        android:textStyle="bold"
+                        android:textAlignment="viewEnd"
+                        android:textColor="#fff"
+                        android:background="@color/mauXam"
+                        android:layout_marginRight="10dp"
+                        tools:ignore="RtlCompat" />
+                    <TextView
+                        android:id="@+id/class_vukhi"
+                        android:layout_weight="2"
+                        android:layout_marginLeft="10dp"
+                        android:layout_gravity="center"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:text="Kiếm - Thương"
+                        android:textColor="#fff"
+                        />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:weightSum="4"
+                    android:layout_marginTop="5dp"
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text=""/>
+                    <TextView
+                        android:background="@color/mauXam"
+                        android:textStyle="bold"
+                        android:layout_weight="1"
+                        android:layout_gravity="center"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:text="Tộc"
+                        android:textAlignment="viewEnd"
+                        android:textColor="#fff"
+                        android:layout_marginRight="10dp"
+                        tools:ignore="RtlCompat" />
+                    <TextView
+                        android:id="@+id/class_tentoc"
+                        android:layout_weight="2"
+                        android:layout_marginLeft="10dp"
+                        android:layout_gravity="center"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:text="Human"
+                        android:textColor="#fff"
+                        />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:weightSum="4"
+                    android:layout_marginTop="5dp"
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text=""/>
+                    <TextView
+                        android:background="@color/mauXam"
+                        android:textStyle="bold"
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:text="Hệ"
+                        android:textAlignment="viewEnd"
+                        android:textColor="#fff"
+                        android:layout_marginRight="10dp"
+                        tools:ignore="RtlCompat" />
+                    <TextView
+                        android:id="@+id/class_tenhe"
+                        android:layout_weight="2"
+                        android:layout_marginLeft="10dp"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:text="Chiến binh"
+                        android:textColor="#fff"
+                        />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:weightSum="4"
+                    android:layout_marginTop="5dp"
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text=""/>
+                    <TextView
+                        android:textStyle="bold"
+                        android:background="@color/mauXam"
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:text="Giáp"
+                        android:textAlignment="viewEnd"
+                        android:textColor="#fff"
+                        android:layout_marginRight="10dp"
+                        tools:ignore="RtlCompat" />
+                    <TextView
+                        android:id="@+id/class_giap"
+                        android:layout_weight="2"
+                        android:layout_marginLeft="10dp"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:text="Giáp nhẹ"
+                        android:textColor="#fff"
+                        />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/custom_khungden"
+            android:id="@+id/chucvu"
+            android:layout_below="@+id/chucvux"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:text="Chức vụ"
+                android:textColor="#fff"
+                android:textSize="30dp" />
+            <TextView
+                android:id="@+id/textChucvu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/chucvu"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:textColor="#fff"
+                android:text="Chuc vu" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/custom_khungden"
+            android:id="@+id/nhanxet"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/chucvu"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:text="Nhận xét"
+                android:textColor="#fff"
+                android:textSize="30dp" />
+            <TextView
+                android:id="@+id/textNhanxet"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:textColor="#fff"
+                android:text="Nhan xet" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/custom_khungden"
+            android:id="@+id/kynang"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/nhanxet"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:text="Kỹ năng"
+                android:textColor="#fff"
+                android:textSize="30dp" />
+            <TextView
+                android:id="@+id/textKynang"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:textColor="#fff"
+                android:text="Kỹ năng + Hướng tăng skill cho PVE và PVP" />
+            <com.facebook.shimmer.ShimmerFrameLayout
+                android:id="@+id/shimmer_view_container2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                >
+                <ImageView
+                    android:scaleType="centerCrop"
+                    android:id="@+id/skillboook"
+                    android:src="@drawable/magicboookicon"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/custom_button_start"
+                    android:layout_width="100dp"
+                    android:textColor="#fff"
+                    android:textSize="30dp"
+                    android:textAlignment="center"
+                    android:layout_height="100dp"
+                    android:layout_marginBottom="10dp"
+                    />
+
+            </com.facebook.shimmer.ShimmerFrameLayout>
+
+
+
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+
+</ScrollView>

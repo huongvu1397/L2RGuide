@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_class"
+            android:icon="@drawable/character"
+            android:title="Nhân vật" />
+        <item
+            android:id="@+id/nav_danhgia"
+            android:icon="@drawable/starrate"
+            android:title="Đánh giá nhân vật" />
+        <item
+            android:id="@+id/nav_banghoi"
+            android:icon="@drawable/ic_tower"
+            android:title="Clan" />
+        <item
+            android:id="@+id/nav_trangbi"
+            android:icon="@drawable/ictrangbi"
+            android:title="Trang bị" />
+        <item
+            android:id="@+id/nav_dung"
+            android:icon="@drawable/icdungeon"
+            android:title="Phụ bản" />
+    </group>
+
+    <item android:title="">
+        <menu>
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@drawable/aboutus"
+                android:title="Phát triển bởi" />
+        </menu>
+    </item>
+
+</menu>

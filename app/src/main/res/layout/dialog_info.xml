@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="300dp"
+    android:layout_height="300dp"
+    android:background="@drawable/custom_dialog"
+    >
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="About"
+       android:textStyle="bold"
+       android:layout_margin="20dp"
+       android:textSize="30dp"
+       android:textColor="#fff"
+       />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:textColor="#fff"
+        android:layout_marginLeft="20dp"
+        android:text="L2R Guide VN"/>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:textColor="#fff"
+        android:layout_marginLeft="20dp"
+        android:text="Phiên bản : Beta"/>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:textColor="#fff"
+        android:layout_marginLeft="20dp"
+        android:text="Email : leopardblat@gmail.com"/>
+    <TextView
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:textColor="#fff"
+        android:text="Cảm ơn mọi người đã sử dụng !"/>
+    <TextView
+        android:gravity="right"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:textColor="#fff"
+        android:layout_marginRight="40dp"
+        android:text="KMA group"
+        />
+
+
+</LinearLayout>

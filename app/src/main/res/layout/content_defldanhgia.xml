@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="*"
+    android:background="@drawable/icdelf"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".danhgia.defldanhgia"
+    tools:showIn="@layout/activity_danhgiadelf"
+    >
+
+    <TextView
+        android:layout_margin="10dp"
+        android:text=""
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+
+    <TableRow android:layout_marginTop="5dp">
+
+
+        <TextView
+            android:background="#ffffff"
+            android:layout_gravity="center"
+            android:layout_marginLeft="5dp"
+            android:text="Nhân vật"
+            android:textSize="15dp" />
+
+        <TextView
+            android:layout_gravity="center"
+            android:text="Cày cấp"
+            android:textSize="15dp" />
+
+        <TextView
+            android:layout_gravity="center"
+            android:text="Phó bản"
+            android:textSize="15dp" />
+
+        <TextView
+            android:layout_gravity="center"
+            android:layout_marginRight="5dp"
+            android:text="PVP"
+            android:textSize="15dp" />
+
+
+    </TableRow>
+
+    <TableRow android:layout_marginTop="5dp">
+
+        <TextView
+
+            android:background="#ffffff"
+            android:layout_gravity="center"
+            android:layout_marginLeft="5dp"
+            android:text="Shillien Knight "
+            android:textSize="15dp" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="18dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/star4" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="18dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/star3" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="18dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/star4" />
+
+    </TableRow>
+
+    <TableRow android:layout_marginTop="5dp">
+
+        <TextView
+            android:background="#ffffff"
+            android:layout_gravity="center"
+            android:layout_marginLeft="5dp"
+            android:text="Blade Dancer"
+            android:textSize="15dp" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="18dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/star4" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="18dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/star4" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="18dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/star4" />
+
+    </TableRow>
+
+    <TableRow android:layout_marginTop="5dp">
+
+        <TextView
+            android:background="#ffffff"
+            android:layout_gravity="center"
+            android:layout_marginLeft="5dp"
+            android:text="Abyss Walker"
+            android:textSize="15dp" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="18dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/star4" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="18dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/star4" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="18dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/star3" />
+
+    </TableRow>
+
+    <TableRow android:layout_marginTop="5dp">
+
+        <TextView
+            android:background="#ffffff"
+            android:layout_gravity="center"
+            android:layout_marginLeft="5dp"
+            android:text="Phantom Ranger"
+            android:textSize="15dp" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="18dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/star4" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="18dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/star5" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="18dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/star3" />
+
+    </TableRow>
+
+    <TableRow android:layout_marginTop="5dp">
+
+        <TextView
+            android:background="#ffffff"
+            android:layout_gravity="center"
+            android:layout_marginLeft="5dp"
+            android:text="Spellhowler"
+            android:textSize="15dp" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="18dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/star4" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="18dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/star3" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="18dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/star4" />
+
+    </TableRow>
+
+    <TableRow android:layout_marginTop="5dp">
+
+        <TextView
+            android:background="#ffffff"
+            android:layout_gravity="center"
+            android:layout_marginLeft="5dp"
+            android:text="Shillien Elder"
+            android:textSize="15dp" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="18dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/star2" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="18dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/star3" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="18dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/star4" />
+
+    </TableRow>
+
+
+</TableLayout>

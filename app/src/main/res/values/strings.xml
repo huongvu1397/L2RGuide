@@ -1,0 +1,212 @@
+<resources>
+    <string name="app_name">L2RGUIDEVN</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Hướng dẫn L2R VN</string>
+    <string name="nav_header_subtitle">leopardblyat@gmail.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_humandanhgia">Human</string>
+    <string name="title_activity_tiendanhgia">Elf</string>
+    <string name="title_activity_defldanhgia">Dark Elf</string>
+    <string name="title_activity_dwarfdanhgia">Dwarf</string>
+    <string name="title_activity_comments">Comments</string>
+    <string name="action_comment">Comment</string>
+    <string name="action_refresh">Reload</string>
+    <string name="title_activity_gop_y">Góp Ý</string>
+    <string name="title_activity_warlord">Nhân vật</string>
+
+
+    <string name="chucvu_pladin">Phòng thủ cao + khiên phòng thủ cao nhất</string>
+    <string name="chucvu_warlord">DPS cao</string>
+    <string name="chucvu_templeknigt">Sát thương diện rộng + Tank</string>
+    <string name="chucvu_ss">DPS tầm trung + Buff tăng máu và tỉ lệ chí mạng.</string>
+    <string name="chucvu_sk">Tanker đi đầu trong những cuộc giao tranh</string>
+    <string name="chucvu_bd">AoE + DPS cao với các điệu nhảy làm tăng sát thương và tốc độ tấn công.</string>
+    <string name="chucvu_guar">Tanker với phòng thủ và máu cao nhất trong tất cả các nhân vật</string>
+    <string name="chucvu_slayer">Tấn công chậm + DPS cao</string>
+
+
+    <string name="chucvu_treasure">Tấn công nhanh, khả năng làm choáng tốt</string>
+    <string name="chucvu_haweye">DPS AoE tầm bắn xa vler</string>
+    <string name="chucvu_plains">Tốc độ tấn công nhanh, sát thương rất cao</string>
+    <string name="chucvu_silver">DPS đơn mục tiêu, tấn công nhanh hơn Phantom Ranger</string>
+    <string name="chucvu_abys">Boy one hit, DPS, tốc độ tấn công nhanh.</string>
+    <string name="chucvu_phantom">DPS đơn mục tiêu, tấn công chậm, nhưng sát thương cao.</string>
+    <string name="chucvu_scaven">Sát thương cao</string>
+    <string name="chucvu_warranger">Sử dụng bẫy và kỹ năng né tránh</string>
+
+
+    <string name="chucvu_sorcer">Pháp sư hệ lửa + AoE DPS</string>
+    <string name="chucvu_bishop">Chuyên gia hồi máu</string>
+    <string name="chucvu_spellsinger">Pháp sư hệ băng + làm chậm địch</string>
+    <string name="chucvu_elder">Hồi máu theo thời gian</string>
+    <string name="chucvu_spellhow">DPS</string>
+    <string name="chucvu_shillien">Hút máu của đồi phương buff cho đồng đội</string>
+    <string name="chucvu_battlemage">DPS kỹ năng tầm gần, hồi chiêu nhanh</string>
+    <string name="chucvu_sage">Buff giáp</string>
+
+
+    <string name="nx_pladin">\"Paladin là 1 lớp nhân vật cân bằng, khả năng tank cực tốt và gây sát thương ở mức khá.
+        Có kĩ năng CC, phép buff phòng thủ và khả năng khiêu khích,
+        điều này khiến Paladin rất được ưa chuộng trong các phó bản \"</string>
+
+    <string name="nx_warlord">\"Warlord có sát thương khá cao so với Paladin.Không may là, điều này đi kèm với khả năng sống
+        sót ở mức trung bình trong phó bản. Nhưng bù lại khi PVP 1v1 Warlord tỏ ra rất hiệu quả nhờ vào những kĩ năng CC diện rộng.
+        Với sự hỗ trợ tốt trong PVP nhóm, Warlord thực sự phát huy hết khả năng \"</string>
+
+    <string name="nx_templeknigt">\"Temple Knight có khả năng trì hoãn hoặc miễn nhiễm rất nhiều sát thương.
+        Trong khi điều này là rất tuyệt vời trong PvP, nó khá vô dụng trong việc cày cấp và phó bản.
+        Có lượng sát thương ở mức trung bình, khiến Temple Knight khó solo được .\"
+    </string>
+    <string name="nx_ss">\"Swordsinger là lựa chọn tuyệt vời cho phó bản và việc cày cấp do sát thương đối cao và khả năng cân bằng,
+        nhưng trong những trận chiến PvP 1v1 do không có khả năng dồn sát thương,
+        nên Swordsinger có thể gặp khó khăn khi đối đầu với những nhân vật có khả năng tank .\"</string>
+
+    <string name="nx_sk">\"Sát thương cao và HP khá khiến cho Shillien Knight trở nên tuyệt vời cho việc cày cấp và PvP, mặc dù không trâu bò như tank của tộc Human,
+        Shillien Knight có khả năng tank xuất phát từ những kĩ năng Hút máu trong khi tấn công để sống sót trong trận chiến.
+        Bạn sẽ thích nhân vật này nếu như bạn là người đang tìm một nhân vật vừa có khả năng tank, vừa có khả năng gây sát thương khá và cả khả năng hút máu nữa\"</string>
+
+    <string name="nx_bd">\"Bladedancer là nhân vật gây ra sát thương hàng đầu. Trong cả PvP và PvE,
+        Bladedancer đều có thể tỏa sáng, cũng như là một đồng minh đáng tin cậy trong một party.
+        Tuy nhiên, một trong những khó khăn hàng đầu chính là lượng máu và phòng thủ thấp.
+        Đòi hỏi phải có trang bị ngon để thật sự tỏa sáng. Đồ đạc cấp cao và Soul Crystal rất cần thiết để nhân vật này có thể làm mưa làm gió trên chiến trường.\"</string>
+
+    <string name="nx_guar">\"Mặc dù cày cấp ở mức trung bình, Guardian có lượng sát thương diện rộng khá đến từ kĩ năng,
+        hữu ích khi debuff những đợt quái xuất hiện.
+        Class thiên về lối chơi đội nhóm, nhưng đồng thời cũng đáng tin cậy khi chơi solo.
+        Là một trong những class tank tốt nhất, bù lại làm nhiệm vụ solo luôn là một thử thách không nhỏ khi so với class Warrior thiên về tấn công.\"</string>
+
+    <string name="nx_slayer">\"Slayer thể hiện xuất sắc trong cả PvE và PvP,
+        nhờ vào khả năng khuếch đại chỉ số từ kĩ năng. Là nhân vật lai giữa khả năng gây sát thương và tank.
+        Tuy nhiên tốc độ đánh chậm khiến nhân vật này khó giết những nhân vật dựa vào né tránh và tốc độ chạy.
+        Không có khả năng dồn sát thương, nhưng có khả năng gây sát thương lớn trong những trận đánh dài hơi\"</string>
+
+
+    <string name="nx_treasure">\"Treasure Hunter rất nhanh và dẻo dai,
+        cho phép bạn cày cấp khá là dễ dàng và PvP tốt khi party với 1 class tank.
+        Về phó bản, Treasure Hunter tốt hơn bạn có thể nghĩ - mặc dù có sức tấn công trung bình và tầm gần,
+        tốc độ cao khiến Treasure Hunter có thể hit and run khá tốt .\"</string>
+
+    <string name="nx_haweye">\"Hawkeye không phải là sự lựa chọn tốt trong chiến đấu trực tiếp,
+        nhưng nhờ khả năng tấn công diện rộng và tầm bắn xa nhất trong số các xạ thủ thì khi ở
+        trong party Hawkeye là 1 sự lựa chọn tuyệt vời\"</string>
+
+    <string name="nx_plains">\" Plains Walkers có mức giáp thấp, do đó khá mỏng manh nên khi đối đầu với một nhóm quái cần
+        phải cẩn thận. Sát thương nhanh và mạnh
+        cùng với khả năng buff và debuff của Plains Walkers khiến lớp nhân vật này trở nên
+        tuyệt vời trong phó bản và PvP 1v1\"</string>
+
+    <string name="nx_silver">\"Tấn công tầm xa, sát thương cao, tốc độ cao và né tránh tốt
+        Silver Ranger là hoàn hảo khi "vừa đánh vừa chạy" trên chiến trường, là nhân vật gây sát thương lớn từ hàng phía sau trong
+        những trận Clan War hay Siege War. Nhược điểm là khá yếu khi đối đầu với Boss
+        và những người chơi nếu bị áp sát\"</string>
+
+    <string name="nx_abys">\"Abyss Walker gây ra rất nhiều sát thương trong một thời gian rất ngắn,
+        nhưng do sức lượng máu thấp, cần đòi hỏi một lối chơi chú ý nhiều và tập trung vào trang bị.
+        Không phải là nhân vật có khả năng né tốt nhất, nên Abyss Walker thường uống bình máu thay nước lã.\"</string>
+
+    <string name="nx_phantom">\"Phantom Ranger gây sát thương chí mạng cực cao, giúp ích rất nhiều trong phó bản.
+        Khá phổ biến trong Fortress Siege, nhờ vào khả năng dồn sát thương tầm xa.
+        PvP 1v1 sẽ là thách thức đối với Phantom Ranger, do rất mỏng manh,
+        có lượng máu và phòng thủ thấp nhất game, tốc độ di chuyển trung bình.\"</string>
+
+    <string name="nx_scaven">\"Chậm lên cấp độ, nhưng tốc độ di chuyển cực kỳ nhanh, Scavenger
+        có thể gây ra một tấn sát thương. Sát thương đơn lẻ rất cao và thể hiện rất tốt trong những trận đấu 1v1.
+        Nhìn chung, do là nhân vật mỏng manh, nên việc né
+        tránh và chọn vị trí tốt là rất cần thiết để không bị "dẹo" nhanh chóng. Không phải là nhân vật phù hợp để tham gia Siege\"</string>
+
+    <string name="nx_warranger">\"Sát thương cao ở tầm xa làm cho việc cày cấp thật dễ dàng,
+        nhưng lượng HP tương đối thấp và thiếu khả năng dồn sát thương
+        khiến class này khó sử dụng trừ khi bạn có nhiều kinh nghiệm\"</string>
+
+
+    <string name="nx_sorcer">\"Sorcerer là pháp sư với sát thương cao từ lửa, khá dễ để cày cấp và đi phó bản, nhưng trong PvP, Sorcerer sẽ là mục tiêu chính.
+        Trong PvP nhóm như Siege và Clan War,
+        Sorcerer thể hiện khá tốt, miễn là nhân vật này có support hồi máu và tank giữ chân đối thủ.\"</string>
+
+    <string name="nx_bishop">\" Bishop là bậc thầy về phòng thủ - với khả năng hồi phục Máu và Mana,
+        tăng Sức phòng thủ, tăng Máu - Bishop đều có hết. Bishop có vai trò quan trọng trong những trận
+        chiến liên quan đến đội nhóm. Tuy nhiên trong PvP 1v1,
+        Bishop lại gặp khá nhiều khó khăn để hạ gục đối thủ do thiếu sát thương
+        trên giây và chỉ có một kĩ năng gây sát thương\"</string>
+
+    <string name="nx_spellsinger">\"Khá chậm để lên cấp, Spellsinger Không phù hợp với người chơi thích sát thương cao,
+        không phải nhân vật tốt nhất khi đấu 1v1 do sát thương gây ra đối với mục tiêu đơn lẻ thấp.
+        Có bộ kĩ năng tốt, vừa có kĩ năng CC và vừa có kĩ năng mang khả năng hồi máu cho bản thân.
+        Có Spellsinger trong party là một sự bổ sung rất đáng kể, do nhân vật này có thể tăng sát thương chung cho cả party\"</string>
+
+    <string name="nx_elder">\"
+        Chậm lên cấp độ, sát thương khá thấp , nhưng Elder vẫn vô cùng hữu dụng, là một support tốt nhất game,
+        một đồng minh rất mạnh và được săn đón trong những trận đánh theo party nhờ vào những phép buff kích hoạt.
+        Tuy nhiên phải dựa dẫm rất nhiều vào party, đừng chơi nhân vật này nếu như bạn không thích chơi cùng party.\"</string>
+
+    <string name="nx_spellhow">\"Spellhowler là pháp sư chuyên gây sát thương. Tuy nhiên, Spellhowler có
+        lượng máu và sức phòng thủ thấp, khiến cho nhân vật này khá mỏng manh.
+        Spellhowler có khả năng dồn sát thương rất mạnh nhờ vào phép buff kích hoạt.
+        Dù có sát thương cao, tuy nhiên Spellhowler thường là mục tiêu bị nhắm đến đầu tiên trong Fortress Siege,
+        do lượng sát thương đáng gờm và dễ dàng bị hạ khi bị đánh ngã. \"</string>
+
+    <string name="nx_shillien">\"Shillien Elder có khả năng gây ra lượng sát thương khá và hồi máu cho bản thân cùng
+        party theo tỉ lệ sát thương gây ra. Shillien Elder thể hiện tốt hơn những class support khác khi nói về khả năng
+        dọn dẹp quái. Tuy nhiên, sức phòng thủ và lượng máu khá thấp đối với một class support. Sát thương gây ra cho mục
+        tiêu đơn lẻ không cao và không có kĩ năng CC, khiến cho nhân vật này khá yếu khi PvP 1v1 và săn Boss\"</string>
+
+    <string name="nx_battlemage">\"Sát thương cao nhưng di chuyển chậm và lượng máu thấp khiến Battle Mage trở nên tuyệt
+        vời cho việc cày cấp và phó bản, nhưng khó sử dụng trong các trận chiến PvP.\"</string>
+
+    <string name="nx_sage">\"Hồi máu và sát thương thấp nhưng khả năng buff và sống sót làm cho Sage trở nên tuyệt vời cho PvP
+        và phó bản, nhưng làm cho việc cày cấp chậm hơn.\"</string>
+
+    <string name="title_activity_zoom_image">Kỹ năng</string>
+
+    <string name="class_paladin">Paladin</string>
+    <string name="class_warlord">Warlord</string>
+    <string name="class_th">Treasure Hunter</string>
+    <string name="class_haw">Hawkeye</string>
+    <string name="class_sor">Sorcerer</string>
+    <string name="class_bishop">Bishop</string>
+
+    <string name="class_temple">Temple Knight</string>
+    <string name="class_ss">Swordsinger</string>
+    <string name="class_plains">Plains Walker</string>
+    <string name="class_silver">Silver Ranger</string>
+    <string name="class_spellsinger">Spellsinger</string>
+    <string name="class_elder">Elder</string>
+
+    <string name="class_sk">Shillien Knight</string>
+    <string name="class_bd">Bladedancer</string>
+    <string name="class_abyss">Abyss Walker</string>
+    <string name="class_phantom">Phantom Ranger</string>
+    <string name="class_spellhowler">Spellhowler</string>
+    <string name="class_shillienelder">Shillien Elder</string>
+
+    <string name="class_guardian">Guardian</string>
+    <string name="class_slayer">Slayer</string>
+    <string name="class_scaven">Scavenger</string>
+    <string name="class_warranger">War Ranger</string>
+    <string name="class_battlemage">Battle Mage</string>
+    <string name="class_sage">Sage</string>
+
+    <string name="tocnguoi">Người</string>
+    <string name="toctien">Tiên</string>
+    <string name="tochactien">Hắc Tiên</string>
+    <string name="toclun">Lùn</string>
+
+    <string name="warrior">Chiến binh</string>
+    <string name="rogue">Lãng khách</string>
+    <string name="mage">Thuật sĩ</string>
+
+    <string name="kiemkhien">Kiếm và Khiên</string>
+    <string name="kiemthuong">Song Kiếm,Thương</string>
+    <string name="daogam">Dao găm</string>
+    <string name="cung">Cung</string>
+    <string name="truong">Trượng</string>
+
+    <string name="giapnang">Giáp nặng</string>
+    <string name="giapnhe">Giáp nhẹ</string>
+    <string name="aochoang">Áo choàng</string>
+    <string name="title_activity_comming_soon">CommingSoon</string>
+
+
+</resources>
